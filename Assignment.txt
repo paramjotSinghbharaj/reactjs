@@ -1,0 +1,22 @@
+import React, { useState } from 'react';
+
+export default function App() {
+	const questions = [
+		{
+			questionText: 'Which phone is IOS supported?',
+			answerOptions: [
+				{ answerText: 'VIVO', isCorrect: false },
+				{ answerText: 'SAMSUNG', isCorrect: false },
+				{ answerText: 'IPHONE', isCorrect: true },
+				{ answerText: 'OPPO', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Which is largest food grain producing state in India?',
+			answerOptions: [
+				{ answerText: 'Punjab', isCorrect: false },
+				{ answerText: 'West Bengal', isCorrect: true },
+				{ answerText: 'Haryana', isCorrect: false },
+				{ answerText: 'Gujarat', isCorrect: false },
+			],
+		},
